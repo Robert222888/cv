@@ -1,0 +1,281 @@
+body{
+    background-color:rgb(54, 49, 47);
+    font-family: 'Montserrat', sans-serif;
+    width: 1420px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+  
+}
+
+
+/*---------------------------------------------------*/
+.Maintoolbar{
+
+    position: inherit;
+    width: 1440px;
+    height: 48px;
+    background-color: black;
+    background-size: cover;
+}
+
+
+.toolbarbg{
+    width: 1440px;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 48px;
+    margin-top: 0px;
+    position: fixed;
+    
+    
+  
+}
+.buttontoolbar{
+    border-radius: 12px;
+    box-shadow:black ;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+    width: 1420px;
+   position: fixed;
+   
+    
+  
+}
+.buttonone{
+    width: 200px;
+  
+
+}
+
+.buttontwo{
+    width: 200px;
+    
+
+}
+.buttonthree{
+    width: 200px;
+    
+
+}
+
+.buttonfour{
+    width: 200px;
+    
+
+}
+
+/* CSS styles for the search bar */
+.search-container {
+    margin: 20px;
+      display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  right: 0;
+  position: absolute;
+  margin-right: -10px;
+  }
+  .search-container input[type=text] {
+    padding: 10px;
+    width: 60%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+  .search-container button {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+
+
+/*Main-section*/
+
+.main-section {
+   
+    flex-direction: row-reverse;
+    width: 1015px;
+    margin: 5px auto;
+    margin-left: 10px;
+    margin-right: 5px ;
+    
+    margin-bottom: 10px;
+    height: 320px;
+   
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+    background-color: white;
+
+    padding-bottom:15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    
+  
+    
+
+}
+
+.about-me-profession{
+    font-size: 20px;
+    width: 1025px;
+    margin-left: 10px;
+    
+    
+}
+.fr-end-hr{
+    width: 300px;
+    margin-right: 800px;
+   
+}
+
+.name{
+   
+    font-size: 65px;
+    margin: 5px auto;
+    margin-left: 20px;
+    width: 1015px;
+}
+
+.ok{
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 600px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+/*---------------------------------------------------*/
+
+
+
+
+
+/*---------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*Main-section-two*/
+
+.main-section-two {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1340px;
+    margin: 40px auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 1200px;
+    background-position: right;
+    background-size: cover;
+    background-color: rgb(42, 36, 36);
+    background-attachment: fixed;
+
+}
+
+
+.Projects-section{
+    
+    margin-bottom: 51px; ;
+    margin-right: 257px;
+
+}
+
+
+.work-experience-section{
+    
+    margin-bottom: 16px;
+    margin-right: 217px;
+}
+.Compani-2{
+
+    margin-bottom: 20 px;
+    margin-right: 217px;
+
+}
+.Compani-1{
+  
+    margin-bottom: 43px;
+    margin-right: 217px;
+
+}
+
+
+.education-section{
+ 
+    margin-bottom: 111px;
+    margin-right: 500px;
+
+}
+
+
+.right-section-two{
+    padding-left: 88px;
+  
+
+}
+
+/*---------------------------------------------------*/
+
+
+
+/*side-bar*/
+
+.sidebar-section{
+    background-color: black;
+}
+.one{
+    margin-left: 40px;
+}
+.two{
+    margin-left: 40px;
+}
+.three{
+    margin-left: 40px;
+}
+.sidebar-section-img{
+    margin-top: 40px;
+}
+
+
+ul {
+    list-style: none;
+  }
+ 
+  
+  ul li::before {
+    content: "\2022";
+    color: #FB6D3A;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+ 
+ /*---------------------------------------------------*/
